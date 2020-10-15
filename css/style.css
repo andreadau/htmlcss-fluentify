@@ -39,6 +39,14 @@ body {
 header {
   width: 100%;
   height: 70%;
+
+}
+
+.img-container {
+  background-image: url(../img/banner_header.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 125% 110%;
 }
 
 .container {
@@ -118,10 +126,7 @@ header {
 .container-hero {
   height: 90%;
   position: relative;
-  background-image: url(../img/banner_header.png);
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: 140% 110%;
+
 }
 
 .div-hero {
@@ -146,3 +151,5 @@ header {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+.hero-imm
