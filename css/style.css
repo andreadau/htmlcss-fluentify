@@ -31,7 +31,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: green;
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -39,7 +38,6 @@ body {
 header {
   width: 100%;
   height: 70%;
-
 }
 
 .img-container {
@@ -150,4 +148,93 @@ header {
   color: white;
   font-size: 14px;
   text-transform: uppercase;
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.row-main-top {
+  width: 100%;
+  height: 130px;
+  background: #D3D3D3;
+  text-align: center;
+  padding: 30px;
+}
+
+.main-container {
+  width: 80%;
+  height: 1000px;
+  margin: auto;
+}
+
+.col-2 , .col-1 , .col-3{
+  width: 33%;
+  height: 500px;
+  position: relative;
+}
+.col-1 img , .col-2 img , .col-3 img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.col-1 img {
+  max-width: 30%;
+}
+.col-2 img {
+  max-width: 40%;
+}
+.col-3 img {
+  max-width: 35%;
+}
+.col-1 h2 , .col-2 h2, .col-3 h2 {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #7CBB02;
+  width: 65%;
+}
+.col-1 p , .col-2 p , .col-3 p {
+  text-align: center;
+}
+.col-1 p {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.col-2 p {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.col-3 p {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.row-main-middle {
+  width: 100%;
+  height: 55%;
+  border-bottom: 1px solid lightgray;
+}
+
+.hr-col {
+  width: 13%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-color: lightgray;
 }
