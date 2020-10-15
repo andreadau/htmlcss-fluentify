@@ -33,7 +33,6 @@ body {
   height: 100vh;
   background: green;
   margin: 0;
-  text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -44,14 +43,13 @@ header {
 
 .container {
   width: 80%;
-  height: 70%;
+  height: 100%;
   margin: auto;
 }
-
 .nav-bar {
-  width: 100%;
   height: 10%;
   padding-top: 1%;
+  line-height: 3em;
 }
 
 .nav-logo {
@@ -59,19 +57,22 @@ header {
 }
 
 .nav-middle {
-  width: 45%;
+  width: 55%;
+  text-align: left;
 }
 
 .nav-right {
-  width: 40%;
+  width: 30%;
+  text-align: right;
 }
+
 .logo {
-  margin-top: 2%;
 }
+
 .nav-middle div  {
   float: left;
   display: inline-block;
-  padding: 2.5%;
+  padding-right: 1em;
 }
 
 .nav-middle div a {
@@ -86,7 +87,6 @@ header {
   float: left;
   display: inline-block;
   margin-left: 3%;
-  margin-top: 3%;
 }
 
 .nav-right div a {
@@ -95,7 +95,7 @@ header {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
-  padding: 10px 30px;
+  padding: 10px 20px;
 }
 
 .btn-green {
@@ -107,4 +107,42 @@ header {
   border-radius: 5px;
   background-color: transparent;
   border: 1px solid white;
+}
+
+.nav-bar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-hero {
+  height: 90%;
+  position: relative;
+  background-image: url(../img/banner_header.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+}
+
+.div-hero {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.text-hero {
+  font-weight: 500;
+  color: white;
+  font-size: 49px;
+  margin-bottom: 40px;
+}
+
+.bnt-hero {
+  border-radius: 5px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
 }
