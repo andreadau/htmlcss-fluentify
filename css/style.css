@@ -244,7 +244,7 @@ header {
 
 .main-container-bottom {
   width: 80%;
-  height: 550px;
+  height: 400px;
   margin: auto;
   margin-top: 50px;
 }
@@ -257,12 +257,12 @@ header {
 
 .col-4 {
   width: 50%;
-  height: 600px;
+  height: 400px;
   position: relative;
 }
 .col-5 {
   width: 30px;
-  height: 600px;
+  height: 700px;
   position: relative;
 }
 
@@ -276,4 +276,28 @@ header {
 
 .col-5 h1  {
   margin-bottom: 20px;
+}
+
+/* /Main*/
+
+.footer {
+  width: 80%;
+  margin: auto;
+  height: 130px;
+  position: relative;
+}
+
+
+.row-footer {
+  width: 100%;
+  height: 130px;
+  background: #D3D3D3;
+  padding: 30px;
+}
+
+.col-1-footer {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  bottom: 60%;
 }
